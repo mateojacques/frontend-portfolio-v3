@@ -1,0 +1,23 @@
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box h3 {
+  color: #ffea00;
+  font-size: 1rem;
+}
+
+.box p {
+  color: #fff;
+}
+
+.box span {
+  color: #535353;
+}
+/*# sourceMappingURL=box.module.css.map */

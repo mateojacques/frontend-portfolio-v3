@@ -1,0 +1,10 @@
+@import '../../styles/vars.scss';
+
+.title {
+  font-size: clamp(4.35rem, 20vw, 10rem);
+  color: $textDarker;
+  text-align: center;
+  transform: translateX(-5px);
+  line-height: clamp(4rem, 20vw, 9rem);
+  letter-spacing: 2px;
+}

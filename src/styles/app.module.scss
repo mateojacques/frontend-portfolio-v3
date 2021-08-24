@@ -1,0 +1,17 @@
+@import 'vars';
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $primary;
+  display: flex;
+  justify-content: center;
+  padding-right: clamp(30px, 10vw, 300px);
+  transition: 1s ease-in-out;
+}
+
+.container {
+  width: clamp(300px, 100%, 1000px);
+  padding-block: clamp(20px, 1vw, 50px);
+  padding-inline: clamp(15px, 4vw, 50px);
+}

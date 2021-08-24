@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAcvB;;AAhBD,AAIE,IAJE,CAIF,EAAE,CAAC;EACD,KAAK,ECLG,OAAO;EDMf,SAAS,EAAE,IAAI;CAChB;;AAPH,AASE,IATE,CASF,CAAC,CAAC;EACA,KAAK,ECLF,IAAI;CDMR;;AAXH,AAaE,IAbE,CAaF,IAAI,CAAC;EACH,KAAK,ECXE,OAAO;CDYf",
+    "sources": [
+        "box.module.scss",
+        "../../styles/vars.scss"
+    ],
+    "names": [],
+    "file": "box.module.css"
+}

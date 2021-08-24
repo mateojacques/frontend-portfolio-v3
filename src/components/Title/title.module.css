@@ -1,0 +1,10 @@
+.title {
+  font-size: clamp(4.35rem, 20vw, 10rem);
+  color: #161616;
+  text-align: center;
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+  line-height: clamp(4rem, 20vw, 9rem);
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=title.module.css.map */

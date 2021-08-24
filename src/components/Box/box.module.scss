@@ -1,0 +1,19 @@
+@import '../../styles/vars.scss';
+
+.box {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    color: $secondary;
+    font-size: 1rem;
+  }
+
+  p {
+    color: $text;
+  }
+
+  span {
+    color: $textDark;
+  }
+}

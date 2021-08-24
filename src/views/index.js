@@ -1,0 +1,5 @@
+export { default as Homepage } from './Homepage/Homepage'
+export { default as About } from './About/About'
+export { default as Projects } from './Projects/Projects'
+export { default as ProjectPage } from './ProjectPage/ProjectPage'
+export { default as Contact } from './Contact/Contact'
