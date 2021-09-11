@@ -30,7 +30,9 @@ const ProjectPage = ({
       <div className={styles.info}>
         <p>{text[0]}</p>
         <p>{text[1]}</p>
-        <img src={img} alt={name} />
+        <a href={img} rel='noreferrer' target='_blank'>
+          <img src={img} alt={name} />
+        </a>
       </div>
 
       <Footer prevPage='Projects' prevHref='/projects' />

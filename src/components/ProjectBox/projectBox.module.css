@@ -1,6 +1,6 @@
 .projectBox {
   width: 100%;
-  max-height: 200px;
+  max-height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,6 +30,6 @@
 }
 
 .projectBox:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 /*# sourceMappingURL=projectBox.module.css.map */

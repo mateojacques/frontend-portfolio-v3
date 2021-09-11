@@ -13,46 +13,52 @@ const Projects = () => {
       <Title title='projects' />
       <div className={styles.grid}>
         <ProjectBox
-          title='ALTAR'
+          title='COREBIZ STORE'
+          description='E-commerce Front End'
           img={project1}
+          link='/projects/corebiz-store'
+          color='#111'
+          bgColor='#fefefe'
+        />
+        <ProjectBox
+          title='ALTAR'
+          description='Web application'
+          img={project2}
           link='/projects/altar'
           color='#efce26'
           bgColor='#444'
         />
         <ProjectBox
           title='GSEI ESPORTS'
-          img={project2}
+          description='Landing page'
+          img={project3}
           link='/projects/gsei-esports'
           color='#8f2df3'
           bgColor='#161616'
         />
         <ProjectBox
           title='PORTFOLIO V2'
-          img={project3}
+          description='Frontend Portfolio'
+          img={project4}
           link='/projects/portfolio-v2'
           color='#fff'
           bgColor='#c32031'
         />
         <ProjectBox
           title='AIRHITECT'
-          img={project4}
+          description='Landing page'
+          img={project5}
           link='/projects/airhitect'
           color='#f2f2f2'
           bgColor='#eb1559'
         />
         <ProjectBox
-          title='MOCKAPP'
-          img={project5}
-          link='/projects/mockapp'
-          color='#42220a'
-          bgColor='#f3cf79'
-        />
-        <ProjectBox
           title='SHIA'
+          description='To-do list app'
           img={project6}
           link='/projects/shia'
-          color='#fff'
-          bgColor='#117c8e'
+          color='#42220a'
+          bgColor='#98dee7'
         />
       </div>
       <Footer

@@ -1,6 +1,6 @@
 import styles from './projectBox.module.css'
 
-const ProjectBox = ({ title, img, link, color, bgColor }) => {
+const ProjectBox = ({ title, img, link, color, bgColor, description }) => {
   return (
     <a
       href={link}
@@ -9,6 +9,7 @@ const ProjectBox = ({ title, img, link, color, bgColor }) => {
     >
       <img src={img} alt={title} />
       <h3 className={styles.title}>{title}</h3>
+      <p>{description}</p>
     </a>
   )
 }

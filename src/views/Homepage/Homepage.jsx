@@ -18,6 +18,12 @@ const Homepage = () => {
             <div>
               <a href='/projects'>PROJECTS</a>
               <div>
+                <a
+                  className={styles.projectLink}
+                  href='/projects/corebiz-store'
+                >
+                  COREBIZ
+                </a>
                 <a className={styles.projectLink} href='/projects/altar'>
                   ALTAR
                 </a>
@@ -29,9 +35,6 @@ const Homepage = () => {
                 </a>
                 <a className={styles.projectLink} href='/projects/airhitect'>
                   AIRHITECT
-                </a>
-                <a className={styles.projectLink} href='/projects/mockapp'>
-                  MOCKAPP
                 </a>
                 <a className={styles.projectLink} href='/projects/shia'>
                   SHIA

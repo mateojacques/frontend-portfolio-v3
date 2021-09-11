@@ -16,6 +16,19 @@ function App() {
           <Route exact path='/projects'>
             <Projects />
           </Route>
+          <Route exact path='/projects/corebiz-store'>
+            <ProjectPage
+              name='COREBIZ STORE'
+              description='E-commerce Front End'
+              siteLink='https://corebiz-store.netlify.app'
+              githubLink='https://github.com/mateojacques/corebiz-ecommerce'
+              text={[
+                'E-commerce Front End. Made as part of an interview process. ',
+                'Tech stack: React, Sass, HTML, JavaScript, Axios.',
+              ]}
+              img='https://i.imgur.com/82TebEl.png'
+            />
+          </Route>
           <Route exact path='/projects/altar'>
             <ProjectPage
               name='ALTAR'
@@ -23,8 +36,8 @@ function App() {
               siteLink='https://altar-art.netlify.app'
               githubLink='https://github.com/mateojacques/altar-app'
               text={[
-                'ALTAR is a web application that gives you a collection of artworks of up to three comic/manga artists of your selection. It can be used as a reference for art studies, or just as a gallery of iconic illustrations.',
-                'Tech Stack: React and Material UI for the frontend. NodeJS and Express for the underlying REST API, which is hosted with Netlify Functions (AWS Lambda). Also, LOTS of Javascript.',
+                'ALTAR is a web application that gives you a collection of artworks of up to three comic/manga artists of your selection.',
+                'Tech Stack: React and Material UI for the frontend. NodeJS and Express for the underlying REST API, which is hosted with Netlify Functions (AWS Lambda).',
               ]}
               img='https://i.imgur.com/iuRh9Et.png'
             />
@@ -66,19 +79,6 @@ function App() {
                 'Written in HTML, CSS (Sass) and Javascript.',
               ]}
               img='https://i.imgur.com/Rggd6Ja.png'
-            />
-          </Route>
-          <Route exact path='/projects/mockapp'>
-            <ProjectPage
-              name='MOCKAPP'
-              description='Landing page'
-              siteLink='https://mockapp.netlify.app'
-              githubLink='https://github.com/mateojacques/mockapp'
-              text={[
-                'Landing page of a fake application to include in my web designer and developer portfolio.',
-                'Designed in Adobe XD. Built using HTML, CSS (Sass), JavaScript and GSAP library for the animations.',
-              ]}
-              img='https://i.imgur.com/iMrHmUW.png'
             />
           </Route>
           <Route exact path='/projects/shia'>
